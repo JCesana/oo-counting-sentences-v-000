@@ -20,10 +20,8 @@ class String
     # text.delete("")
     # text.length
     
-    text = self.gsub(/[?!]/, '.').split('.').delete("").length 
-    text = text.split('.')
-    text.delete("")
-    text.length 
+    self.gsub(/[?!]/, '.').split('.').delete("").length 
+
   end
   
   # solution:
