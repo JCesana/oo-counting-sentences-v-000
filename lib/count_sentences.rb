@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    # text = self.gsub(/[?!]/, '.').split('.').delete("").length 
+    # text = self.gsub(/[?!]/, '.')
     # text = text.split('.')
     # text.delete("")
     # text.length
