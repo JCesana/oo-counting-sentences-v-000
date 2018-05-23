@@ -15,7 +15,12 @@ class String
   end
 
   def count_sentences
-    text = self.gsub(/[?!]/, '.')
+    # text = self.gsub(/[?!]/, '.').split('.').delete("").length 
+    # text = text.split('.')
+    # text.delete("")
+    # text.length
+    
+    text = self.gsub(/[?!]/, '.').split('.').delete("").length 
     text = text.split('.')
     text.delete("")
     text.length 
